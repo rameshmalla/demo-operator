@@ -1,0 +1,15 @@
+.idea
+target/
+*.iml
+
+#vscode
+.project
+.classpath
+.factorypath
+.settings/
+.vscode
+bin/
+
+#gradle
+.gradle/
+build/

@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: local
+---
+apiVersion: "sample.javaoperatorsdk/v1"
+kind: WebPage
+metadata:
+  name: hello
+  namespace: local
+spec:
+  exposed: false
+  html: |
+    <html>
+      <head>
+        <title>Hello Operator World</title>
+      </head>
+      <body>
+        Hello World! 
+      </body>
+    </html>
